@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F96709C82ACB0BD5002CC7D2 /* MetflixAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96709C72ACB0BD5002CC7D2 /* MetflixAppApp.swift */; };
-		F96709CA2ACB0BD5002CC7D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96709C92ACB0BD5002CC7D2 /* ContentView.swift */; };
+		F91430002AE01F5F00FA4667 /* New&Hot.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9142FFF2AE01F5F00FA4667 /* New&Hot.swift */; };
+		F91430022AE01F8100FA4667 /* MyProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91430012AE01F8100FA4667 /* MyProfile.swift */; };
+		F91E41A92AFEF7CE0005A4FF /* movieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91E41A82AFEF7CE0005A4FF /* movieDetail.swift */; };
+		F94CCBE42B4C4C540084441D /* playMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94CCBE32B4C4C540084441D /* playMovie.swift */; };
+		F96709C82ACB0BD5002CC7D2 /* Metflix.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96709C72ACB0BD5002CC7D2 /* Metflix.swift */; };
+		F96709CA2ACB0BD5002CC7D2 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96709C92ACB0BD5002CC7D2 /* SplashScreen.swift */; };
 		F96709CC2ACB0BD7002CC7D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F96709CB2ACB0BD7002CC7D2 /* Assets.xcassets */; };
 		F96709CF2ACB0BD7002CC7D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F96709CE2ACB0BD7002CC7D2 /* Preview Assets.xcassets */; };
+		F96709D62ACB0D0B002CC7D2 /* DesignComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96709D52ACB0D0B002CC7D2 /* DesignComponents.swift */; };
+		F96709D82ACB0D6E002CC7D2 /* AppModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96709D72ACB0D6E002CC7D2 /* AppModels.swift */; };
+		F97D355F2AD2DBC30079F31D /* profileSelectScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97D355E2AD2DBC30079F31D /* profileSelectScreen.swift */; };
+		F97D35612AD2F5EB0079F31D /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97D35602AD2F5EB0079F31D /* HomeScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F9142FFF2AE01F5F00FA4667 /* New&Hot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "New&Hot.swift"; sourceTree = "<group>"; };
+		F91430012AE01F8100FA4667 /* MyProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfile.swift; sourceTree = "<group>"; };
+		F91E41A82AFEF7CE0005A4FF /* movieDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movieDetail.swift; sourceTree = "<group>"; };
+		F94CCBE32B4C4C540084441D /* playMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playMovie.swift; sourceTree = "<group>"; };
 		F96709C42ACB0BD5002CC7D2 /* MetflixApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetflixApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F96709C72ACB0BD5002CC7D2 /* MetflixAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetflixAppApp.swift; sourceTree = "<group>"; };
-		F96709C92ACB0BD5002CC7D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F96709C72ACB0BD5002CC7D2 /* Metflix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metflix.swift; sourceTree = "<group>"; };
+		F96709C92ACB0BD5002CC7D2 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		F96709CB2ACB0BD7002CC7D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F96709CE2ACB0BD7002CC7D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F96709D52ACB0D0B002CC7D2 /* DesignComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignComponents.swift; sourceTree = "<group>"; };
+		F96709D72ACB0D6E002CC7D2 /* AppModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModels.swift; sourceTree = "<group>"; };
+		F97D355E2AD2DBC30079F31D /* profileSelectScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileSelectScreen.swift; sourceTree = "<group>"; };
+		F97D35602AD2F5EB0079F31D /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +67,16 @@
 		F96709C62ACB0BD5002CC7D2 /* MetflixApp */ = {
 			isa = PBXGroup;
 			children = (
-				F96709C72ACB0BD5002CC7D2 /* MetflixAppApp.swift */,
-				F96709C92ACB0BD5002CC7D2 /* ContentView.swift */,
+				F96709C72ACB0BD5002CC7D2 /* Metflix.swift */,
+				F96709D52ACB0D0B002CC7D2 /* DesignComponents.swift */,
+				F96709D72ACB0D6E002CC7D2 /* AppModels.swift */,
+				F96709C92ACB0BD5002CC7D2 /* SplashScreen.swift */,
+				F97D35602AD2F5EB0079F31D /* HomeScreen.swift */,
+				F97D355E2AD2DBC30079F31D /* profileSelectScreen.swift */,
+				F9142FFF2AE01F5F00FA4667 /* New&Hot.swift */,
+				F91E41A82AFEF7CE0005A4FF /* movieDetail.swift */,
+				F94CCBE32B4C4C540084441D /* playMovie.swift */,
+				F91430012AE01F8100FA4667 /* MyProfile.swift */,
 				F96709CB2ACB0BD7002CC7D2 /* Assets.xcassets */,
 				F96709CD2ACB0BD7002CC7D2 /* Preview Content */,
 			);
@@ -137,8 +161,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F96709CA2ACB0BD5002CC7D2 /* ContentView.swift in Sources */,
-				F96709C82ACB0BD5002CC7D2 /* MetflixAppApp.swift in Sources */,
+				F96709CA2ACB0BD5002CC7D2 /* SplashScreen.swift in Sources */,
+				F91E41A92AFEF7CE0005A4FF /* movieDetail.swift in Sources */,
+				F91430022AE01F8100FA4667 /* MyProfile.swift in Sources */,
+				F97D355F2AD2DBC30079F31D /* profileSelectScreen.swift in Sources */,
+				F97D35612AD2F5EB0079F31D /* HomeScreen.swift in Sources */,
+				F91430002AE01F5F00FA4667 /* New&Hot.swift in Sources */,
+				F96709D62ACB0D0B002CC7D2 /* DesignComponents.swift in Sources */,
+				F96709C82ACB0BD5002CC7D2 /* Metflix.swift in Sources */,
+				F94CCBE42B4C4C540084441D /* playMovie.swift in Sources */,
+				F96709D82ACB0D6E002CC7D2 /* AppModels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
